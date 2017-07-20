@@ -1,0 +1,38 @@
+{
+	"name": "nih-fo/portal-correlator",
+	"description": "Portal: Correlator",
+	"type": "project",
+	"keywords": ["project", "application", "correlator"],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Brian French",
+			"role": "Developer"
+		},
+		{
+			"name": "Joshua Knust",
+			"role": "Manager"
+		} 
+	],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"require": {
+		"nih-fo/plugin-utilities": "1.*",
+		"nih-fo/plugin-cacher": "*",
+		"nih-fo/plugin-maxmind": "*"
+	}, 
+	"config": {
+		"vendor-dir": "Vendor/",
+		"secure-http": false
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"chmod 755 ./bin/*",
+			"./bin/post-install-cmd.sh"
+		],
+		"post-update-cmd": [
+			"chmod 755 ./bin/*",
+			"./bin/post-install-cmd.sh"
+		]
+	}
+}

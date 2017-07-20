@@ -1,0 +1,36 @@
+div.editors_div {
+	min-height: 340px;
+	box-shadow: inset 0px 1px 2px #ccc;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	margin: 0 5px;
+	padding:5px;
+}
+
+ul.editors { 
+	list-style-type: none; 
+	margin: 0; 
+	float: left; 
+	margin-right: 10px; 
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	background: #eaeaea; 
+	padding: 2px; 
+	width: 31%;
+	min-height: 330px;
+	overflow: hidden;
+}
+ul.editors li { 
+	margin: 2px; 
+	padding: 6px 8px; 
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	background: #fafafa; 
+}
+ul.editors li:hover {
+	background: #fefefe; 
+}
+ul.editors li.col-title {
+	font-size: 1.2em; 
+	background: #fafafa; 
+}

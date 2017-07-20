@@ -1,0 +1,14 @@
+*.svn
+*.log
+*.mmdb
+*/app/tmp/cache/*_*
+*/app/tmp/cache/models/*
+*/app/tmp/cache/persistent/*
+*/app/tmp/cache/views/*
+*/app/tmp/cache/whoiser/*
+*/app/tmp/cache/nslookup/*
+*/app/tmp/sessions/*
+*/app/tmp/tests/*
+*.ibd.*
+*.tmp
+cakephp_whois_*
