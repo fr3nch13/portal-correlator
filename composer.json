@@ -3,7 +3,7 @@
 	"description": "Portal: Correlator",
 	"type": "project",
 	"keywords": ["project", "application", "correlator"],
-	"license": "proprietary",
+	"license": "mit",
 	"authors": [
 		{
 			"name": "Brian French",
