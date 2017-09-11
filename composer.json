@@ -1,5 +1,5 @@
 {
-	"name": "nih-fo/portal-correlator",
+	"name": "fr3nch13/portal-correlator",
 	"description": "Portal: Correlator",
 	"type": "project",
 	"keywords": ["project", "application", "correlator"],
@@ -17,9 +17,9 @@
 	"minimum-stability" : "dev",
 	"prefer-stable" : true,
 	"require": {
-		"nih-fo/plugin-utilities": "1.*",
-		"nih-fo/plugin-cacher": "*",
-		"nih-fo/plugin-maxmind": "*"
+		"fr3nch13/plugin-utilities": "1.*",
+		"fr3nch13/plugin-cacher": "*",
+		"fr3nch13/plugin-maxmind": "*"
 	}, 
 	"config": {
 		"vendor-dir": "Vendor/",
